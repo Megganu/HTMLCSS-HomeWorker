@@ -1,0 +1,391 @@
+* {
+margin: 0;
+padding: 0;
+}
+.container {
+width: 1600px;
+margin: 0 auto;
+}
+/* Меню сайта*/
+.header {
+display: flex;
+justify-content:space-between;
+height: 75px;
+background-color: #222222;
+}
+.menu1 {
+display: flex;
+justify-content:space-around;
+list-style-type: none;
+margin-right:1258px ;
+padding-right: 100px;
+padding-left: 100px;
+align-items: center;
+}
+.logo {
+width: 44px;
+height: 38px; 
+padding-left: 231px;
+padding-top:  18px; ;
+padding-bottom: 19px;
+}
+.poisk { 
+width: 26px;
+height: 26.79px;     
+padding-left: 41px;
+padding-top:  28.21px; ;
+padding-bottom: 20px;
+}
+.menu2 {
+width: 200px;
+height: 32px;
+display: flex;
+justify-content:space-around;
+margin-left: 1201px;
+margin-top: -50px;
+display: flex;
+list-style-type: none;
+align-items: center;
+}
+.menulist {
+width: 32px;
+height: 23px; 
+}
+.profile {
+width: 29px;
+height: 29px; 
+}
+.basket {
+width: 32px;
+height: 29px; 
+}
+.content {
+width: 1600px;
+display: flex;
+margin-top: 65px;
+margin-bottom:30px;
+}
+.top_item {
+background-image: url(img/img_top/fon.png);
+height: 764px;
+margin-bottom: 20px;
+display: flex;
+justify-content:space-between;
+}
+.top_1 {
+background-image: url(img/img_top/fon.png);
+}
+.top {
+width: 800.58px;
+height: 764px;
+}
+.top_text {
+margin-left: 16px;
+width: 450px;
+height: 93px;
+right: 331px;
+top: 290px;
+bottom: 381px;
+}
+.text_top {
+font-family: Lato;
+font-size: 37px;
+font-weight: 700;
+line-height: 44px;
+}
+.brand_text {
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+color: #222222;
+text-align: center;
+}
+.block_top {
+width: 500px;
+height: 93px;
+display: flex;
+justify-content:center;
+margin-top: 290px;
+margin-right: 331px;    
+}      
+.verticalbar {
+width: 12px;
+height: 92px;
+background: #F16D7F; 
+}
+.top_text {
+width: 450px;
+height: 93px;
+right: 331px;
+top: 290px;
+bottom: 381px; 
+}
+.fashion {
+color: #F16D7F;
+}
+.button {
+width: 154px;  
+height: 50px;
+margin-top: 29px;
+margin-left: 154px;
+color: #000;
+text-align: center;
+line-height: 40px;
+color: gainsboro;
+border-color: transparent;  
+margin-right: 10px; 
+}  
+/*.button:hover {
+border: 1px solid #037388;
+color: #000;
+border-color:#F16D7F
+}*/
+.item {
+flex: 1 1 auto;
+margin: 0 30px;
+width: 360px;
+height: 340px;
+display: flex;
+align-items: center;
+}
+.item_go {
+height: 180px;
+margin-top: 65px;
+display: flex;
+justify-content:center;
+background-image: url(img/img_top/acsess.png);
+background-size:100% ;
+}
+.acses_text {
+width: 159.72px;
+height: 50px;
+margin-top:65px ;
+}
+.text_center {
+margin-top: 96px;
+margin-bottom: -76px;
+text-align: center;
+}
+.top_text_center{
+font-family: Lato;
+font-size: 30px;
+line-height: 36px;
+color: #222222;
+}  
+.top_text_center2 {
+font-family: Lato;
+font-size: 14px;
+line-height: 17px;
+color: #9F9F9F;
+}
+.top2_text_center {
+font-family: Lato;
+font-size: 18px;
+line-height: 17px;
+color: #9F9F9F;
+height: 17px;
+margin-bottom: 0;
+}
+
+.card_top_text {
+font-family: Lato;
+font-size: 15px;
+line-height: 16px;
+color: #000000;
+margin-left: 18px;
+}
+.card_text {
+width: 314.74px;
+font-family: Lato;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: #5D5D5D;
+margin-left: 18px;
+}
+.cent {
+font-family: Lato;
+font-size: 16px;
+line-height: 19px;
+color: #F16D7F;
+margin-left: 18px;
+}
+.item_goods {
+display: flex;
+align-items:center;
+justify-content:center;
+margin-top: 65px;
+}
+.item_goods2 {
+display: flex;
+align-items:center;
+justify-content:center;
+}
+.card_goods {
+width: 360px;
+height: 581px;
+margin: 10px;
+background-image:url(img/img_goods/Background.png);
+text-align: left;
+}
+/*.bc:hover {
+background-color: tomato;
+}
+.bc:hover {
+border-radius: 1opx;
+}*/
+.item1 {
+width: 360px;
+background-image:url(img/img_top/gerl.png);
+background-size: 100%; 
+} 
+.item2 {
+background-image:url(img/img_top/man.png);
+background-size: 100%;
+position: relative;
+}
+.item3 {
+background-image:url(img/img_top/child.png);
+background-size: 100%;
+}
+.button_catalog{
+width: 211px;  
+height: 47px;
+margin-top: 105px;
+color: #000;
+text-align: center;
+line-height: 40px;
+color: gainsboro;
+border-color: transparent;  
+margin-right: 10px; 
+}  
+/*.button:hover {
+border: 1px solid #037388;
+color: #000;
+border-color:#F16D7F
+}*/
+.button_product {
+width: 211px;
+height: 47px;
+border: 1px solid;
+color: #F16D7F;
+display: flex;
+justify-content:center;
+margin-top: 45px;
+margin-left: 695px;
+}
+.button_cat {
+padding-top: 14.5px;
+text-decoration:none ;
+}
+.button_cat_text {
+font-family: Lato;
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+}
+.footer_box1 {
+display: flex;
+justify-content:center;
+align-items: center
+}
+.box {
+width: 350px;
+} 
+.footer {
+margin-top: 100px;
+color: cornsilk;
+text-align: center;
+}
+.footer_box1 {
+height: 341px;
+background-image:url(img/img_footer/footer1.png);
+margin-top: 20px;
+}
+.footer_box2 {
+height: 448px;
+background-image:url(img/img_footer/footer2.png);
+background-size: 115%; 
+}
+.footer_box3 {
+height: 79px;
+background-image:url(img/img_footer/footer3.png);
+}
+.footer_box2 {
+display: flex;
+justify-content: center;
+align-items: center;
+color:#222224    
+}
+.footer_box3 {
+display: flex;
+justify-content:space-around;
+align-items: center;
+padding-left: 237px;
+padding-right: 237px;
+color: ghostwhite;
+}
+.input {
+width: 256px;
+height: 49px;
+text-decoration: none;
+border-radius: 25px;
+border-bottom-left-radius: 25px;
+background-image:url(img/img_footer/input1.png);
+border: rgba(244, 244, 244, 0.7);;
+}
+.item_footer1 { 
+}
+.item_footer2 {
+padding-left: 327.26px;
+}
+.button_input {
+padding-top: 43px;
+margin-left: -148px;
+height: 49px;
+position: relative;
+  }
+.sub {
+margin-top:-37px ;
+margin-bottom: -37px;
+position: relative;
+color: ghostwhite;
+}
+.subck{
+text-decoration: none;
+}
+.fut1_top_text {
+font-family: Lato;
+font-size: 19.96px;
+line-height: 24px;
+color: #FBFBFB;
+}
+.fut1_text {
+font-family: Lato;
+font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+}
+.fut2_text {
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+text-align: center;
+color: #222224;
+
+}
+.fut3_text {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FBFBFB;
+
+}
+.input {outline:none;}
+    
+  
