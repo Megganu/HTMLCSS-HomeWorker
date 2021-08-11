@@ -163,7 +163,7 @@ margin-top:65px ;
 }
 .text_center {
 margin-top: 96px;
-margin-bottom: -76px;
+margin-bottom: -30px;
 text-align: center;
 }
 .top_text_center{
@@ -334,8 +334,6 @@ border-bottom-left-radius: 25px;
 background-image:url(img/img_footer/input1.png);
 border: rgba(244, 244, 244, 0.7);;
 }
-.item_footer1 { 
-}
 .item_footer2 {
 padding-left: 327.26px;
 }
@@ -388,4 +386,4 @@ color: #FBFBFB;
 }
 .input {outline:none;}
     
-  
+
