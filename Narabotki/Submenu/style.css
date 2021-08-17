@@ -14,6 +14,7 @@
     margin-bottom: 10px;
     border: 1px solid;
 }
+/*-----------------------------------------------------------*/
 .menu_filtr {
     height: 200px;
     margin-top: 50px;
@@ -97,3 +98,9 @@ display: flex;
     right: 35px;
     left: auto;
 }
+ul .menu li{
+
+    display:inline-block; /* расположить пункты горизонтально */
+
+}
+/*------------------------------------------------------------*/
